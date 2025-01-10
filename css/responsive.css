@@ -1,0 +1,85 @@
+@media screen and (max-width:700px) {
+  *{font-size: 15px;}
+  /* header */
+  .logo{margin: 0 1rem; transform: scale(.8);}
+  nav{display: none;}
+  .main_visual{height: 90vh;}
+  .video_wrap video{width: 100%; height: 100vh; object-position: left;}
+  .menu{display: block; height: 60px; width: 60px; background: url(../images/menu_btn.png) no-repeat; position: absolute; right: 1em; cursor: pointer;}
+  header:hover .menu{background: url(../images/menu_btn2.png);}
+  .main_text strong{white-space: nowrap;}
+  .icon{width: 90%;}
+  .icon ul{flex-wrap: wrap;}
+  .icon ul li{width: 33.3333%; flex: auto;}
+  header .reserve{height: 4rem;}
+  /* service */
+  .service{width: 100%;}
+  .service h2{margin-top: 2em;}
+  .service_content ul{flex-direction: column; gap: 1.5em;}
+  .service_content ul>li:nth-child(2){margin-left: 5rem;}
+  /* expert_techniquer */
+  .expert_techniquer_inner{width: 100%;}
+  .expert_techniquer .subTitle{color: #000;}
+  .expert_techniquer .expert li{transform: scale(.8);}
+  .expert_techniquer .expert li:nth-child(1){transform-origin: left bottom; margin-left: 2rem; margin-bottom: 1em;}
+  .expert_techniquer .expert li:nth-child(2){transform-origin: right top; margin-right: 2rem;}
+  .expert_techniquer .expert{flex-direction: column;}
+  .homeCheck{width: 100%; flex-direction: column; margin-top: 0;}
+  .homeCheck .text{align-self: center; width: 90%;}
+  .homeCheck .text h3::after{width: 100%; left: 0;}
+  .homeCheck .text p{width: 70%;}
+  .homeCheck .img img{width: 90%; margin: auto; display: block;}
+  .homeCheck .img .play{width: 6em; height: 6em;}
+  .expert_techniquer::before{background-position: right;}
+  /* awards */
+  .awards_inner{width: 90%;}
+  .awards_inner h2{font-size: 1.5rem; color: #000;}
+  .awards_inner p{font-size: 1rem; color: #333}
+  .awards_content ul li img{width: 90%;}
+  .awards_content ul li .text{padding-left: 0; padding-right: 3px;}
+  .awards_content ul li .text strong{font-size: 2rem;}
+  .awards_content ul li .text p{font-size: 0.9rem; color: #fff;}
+  .awards_list ul{flex-direction: column; gap: 1em;}
+  .awards_list ul li{width: 100%; color: rgb(90, 90, 90);}
+  .awards_list ul li::before{border-color: rgb(90, 90, 90);}
+  /* news */
+  .news_inner{width: 100%; display: flex; flex-direction: column; margin: 3rem auto;}
+  .title_wrap{float: none; top: 0; width: 90%; margin: 3rem auto;}
+  .title_wrap::before{width: 100%; top: 2rem;}
+  .news_inner .btn_more{right: 0; top: -28px;}
+  .title_wrap .title{font-size: 1.5rem;}
+  .title_wrap .subTitle{margin-top: 1rem;}
+  .news_content{flex-direction: column;}
+  .news_content .left{width: 90%; justify-content: center; margin: 0 auto;}
+  .news_content .left li:nth-child(1){width: 100%; height: inherit;}
+  .news_content .right{width: 90%; position: static; margin: auto;  margin-top: 20px; }
+  /* consumers */
+  .consumers_inner{width: 100%;}
+  .consumers_inner .title_wrap{width: 90%; position: static; position: relative;}
+  .consumers_inner .title_wrap .title{font-size: 1.5rem;}
+  .consumers_inner .title_wrap .subTitle{top: 1rem;}
+  .consumers_inner .title_wrap::before{top: 4rem; left: 0;}
+  .consumers_inner .title_wrap .btn_more{top: 1px;}
+  .thumnail{padding-top: 2rem; width: 90%;  margin: auto;}
+  .thumnail ul{flex-wrap: wrap; gap: 1rem; justify-content: space-between;}
+  .thumnail ul li{width: 48%; height: 25vh;}
+  .thumnail ul li a .img, .thumnail ul li a img{width: 100%; height: inherit;}
+  .thumnail ul li:nth-child(1) img, .thumnail ul li:nth-child(4) img{height: 100%;}
+  .thumnail ul li:nth-child(1) .img, .thumnail ul li:nth-child(4) .img{height: 65%;}
+  .thumnail ul li .text strong{font-size: .8rem;}
+  .thumnail ul li .text .name, .thumnail ul li .text .date{font-size: .6rem;}
+  .thumnail ul li .text .name::after{height: .6rem;}
+  /* board */
+  .board{flex-direction: column;}
+  .board>div{width: 100%;}
+  .board ul{width: 90%; margin: auto;}
+  /* footer */
+  .site_map{width: 100%;}
+  .site_map>ul{border: none;}
+  .site_map>ul>li{width: 50%; border: none;}
+  .site_map>ul>li:nth-child(2)~li{border-top: 1px solid #373838; padding-top: 30px;}
+  .site_map>ul>li:nth-child(odd){border-right: 1px solid #373838;}
+  .footer{width: 100%; padding: 0 15px;}
+  .footer .footer_logo{width: 100%;}
+  .footer address{width: 100%; margin-top: 30px;}
+}
